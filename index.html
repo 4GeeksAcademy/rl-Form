@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Project</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8391a8094.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<form method="POST" action="--WEBBOT-SELF--" onSubmit="location.href='../../../_derived/nortbots.htm';return false;" webbot-onSubmit>	
+<div class="card">
+	<div class="row1">Payment Form Example</div>
+	<div class="row2">Some fields are missing</div>
+	<br>		
+	<div class="group1">
+		<div>Card #<br><input type="text" name="thecardnum" size="25" style="font-family: Arial; font-size: 10pt"></td></div>
+		<div>CVC #<br><input type="text" name="thecvc" size="13" style="font-family: Arial; font-size: 10pt"></div>
+		<div>Amount<br>$<input type="text" name="theamount" size="10" style="font-family: Arial; font-size: 10pt"></div>
+	</div>	
+<br>
+	<div class="middle">
+		<div class="mid-left">
+			<div class="name">First Name<br><input type="text" name="thefname" size="25" style="font-family: Arial; font-size: 10pt"></div>
+			<div class="name">City<br><input type="text" name="thecity" size="25" style="font-family: Arial; font-size: 10pt"></div>
+			<div class="name">We Accept<br>
+				<input type="radio" name="thecardtype" value="mast"><i class="fa-brands fa-cc-mastercard"></i>
+				<input type="radio" name="thecardtype" value="visa"><i class="fa-brands fa-cc-visa"></i>
+				<input type="radio" name="thecardtype" value="dine"><i class="fa-brands fa-cc-diners-club"></i>
+				<input type="radio" name="thecardtype" value="amex"><i class="fa-regular fa-credit-card"></i>
+			</div>
+		</div>	
+		<div class="mid-right">
+			<div class="name">Last Name<br><input type="text" name="thelname" size="27" style="font-family: Arial; font-size: 10pt"></div>
+			<div class="postal">
+				<div class="name">State<br>
+					<select size="1" name="thestate" style="font-family: Arial; font-size: 10pt">
+						<option>Pick a State</option>
+						<option>Florida</option>
+					</select>					
+				</div>
+				<div class="name">Postal Code<br><input type="text" name="thezip" size="12" style="font-family: Arial; font-size: 10pt"></div>
+				</div>
+				<div class="name">Message<br>
+					<textarea rows="2" name="themessage" cols="29" style="font-family: Arial; font-size: 10pt"></textarea><br>
+					Add any notes here.
+				</div>
+			</div>		
+
+	</div>	
+
+	<div class="bottom">
+		<input type="reset" value="Cancel" name="B3" style="background-color: darkgray;border-color:darkgray; font-family: Arial; color: #FFFFFF; font-size: 10pt">&nbsp;
+		<input type="submit" value="Send" name="B1" style="background-color: #3399FF;border-color:#3399FF; font-family: Arial; color: #FFFFFF; font-size: 10pt"">
+	</div>
+</div>
+
+
+</form>
+
+</body>
+</html>
